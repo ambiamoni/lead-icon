@@ -4,12 +4,12 @@ const IconDescription = () => {
     return (
         <div>
             <div className="heading text-center mt-[88px]">
-                <h2 className='text-4xl font-bold'><span className='text-red-500 mr-2'>Ostad ICON</span>
+                <h2 className='text-4xl font-bold text-gray-900'>Lead <span className='mr-5 text-yellow-500 m-0 tracking-tight rounded  font-bold text-4xl' >ICON</span>
                     Program কি?</h2>
-                <p className='mt-5 tracking-wide font-semibold'>Ostad এর সাথে যুক্ত হয়ে Ostad Icon হিসেবে Learner এর কাছে Ostad এর কোর্সগুলো প্রোমোট এবং <br />সেল করে অফুরন্ত কমিশন আয়ের সুযোগ অর্জনই হলো Ostad Icon Program.</p>
+                <p className='mt-5 tracking-wide font-semibold'>Lead এর সাথে যুক্ত হয়ে Lead Icon হিসেবে Learner এর কাছে Lead এর কোর্সগুলো প্রোমোট এবং <br />সেল করে অফুরন্ত কমিশন আয়ের সুযোগ অর্জনই হলো Lead Icon Program.</p>
             </div>
             <div className='bg-gray-200 mt-20'>
-                <h2 className='text-center text-3xl text-gray-800 font-medium pt-20'>সহজে হয়ে যান Ostad Icon</h2>
+                <h2 className='text-center text-4xl text-gray-800 font-bold pt-20'>সহজে হয়ে যান Lead  <span className='mr-5 text-yellow-500 tracking-tight  font-bold text-4xl' >ICON</span></h2>
                 <div className='flex gap-4 p-10 items-center justify-items-center '>
                     <div className="card card-compact w-96 bg-base-100 shadow-xl p-10">
                         <figure><img src="https://cdn.ostad.app/public/upload/2022-12-21T05-03-36.065Z-icon-14.svg" alt="Shoes" /></figure>

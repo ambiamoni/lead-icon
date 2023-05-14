@@ -7,10 +7,15 @@ const Navbar = () => {
     return (
         <div className=" bg-[#1A1A4C]">
             <div className='hero-top navbar px-20 flex justify-between'>
-                <div className="flex-1">
-                    <a className="btn btn-ghost normal-case text-xl text-white">Lead <span className='text-red-700 font-bold text-sm ml-1'>Icon</span></a>
+                
+                    <div className="flex-1">
+                        <h2 className='font-bold text-5xl  text-gray-100 mb-2 tracking-tight'>
+                            Lead
+                        </h2>
+                        <span className='bg-gray-900 text-yellow-500 m-0 tracking-tight rounded  font-bold text-4xl' >Icon</span>
+                    </div>
 
-                </div>
+                
                 <div className="flex-none">
                     <ul className="menu menu-horizontal px-1 text-gray-200 ">
                         <li className='text-sm font-bold'><a><span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 font-bold">
@@ -18,10 +23,11 @@ const Navbar = () => {
                         </svg>
                         </span>Learn more <span>+8801960888814</span></a></li>
 
-                        <li className='text-sm font-bold'><a><span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 font-bold">
+                        <li className='text-sm font-bold'>
+                            <Link to="/login"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 font-bold">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
                         </svg>
-                        </span> Login/Signup</a></li>
+                         Login/Signup</Link></li>
                     </ul>
                 </div>
             </div>
